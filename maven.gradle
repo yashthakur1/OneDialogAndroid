@@ -1,0 +1,42 @@
+apply plugin: 'com.github.dcendents.android-maven'
+
+group = 'org.bitroot.android'                               // Maven Group ID for the artifact
+
+install {
+    repositories.mavenInstaller {
+        // This generates POM.xml with proper parameters
+        pom {
+            project {
+                packaging 'aar'
+                groupId 'org.bitroot.android'
+                artifactId 'one-step-dialog'
+
+                // Add your description here
+                name 'OneStepDialog'
+                description 'Helps you implement a dialog in any activity in just one line of code in Android'
+                url 'https://github.com/yashthakur1/OneStepDialog-Android'
+
+                // Set your license
+                licenses {
+                    license {
+                        name 'The Apache Software License, Version 2.0'
+                        url 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+                    }
+                }
+                developers {
+                    developer {
+                        id 'yashthakur1'
+                        name 'Yash Thakur'
+                        email 'yash.coder@gmail.com'
+                    }
+                }
+                scm {
+                    connection 'https://github.com/yashthakur1/OneStepDialog-Android.git'
+                    developerConnection 'https://github.com/yashthakur1/OneStepDialog-Android.git'
+                    url 'https://github.com/yashthakur1/OneStepDialog-Android'
+
+                }
+            }
+        }
+    }
+}
