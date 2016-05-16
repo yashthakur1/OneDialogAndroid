@@ -7,16 +7,16 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="modules">
           <set>
-            <option value="$USER_HOME$/SourceTree/OneStepDialog" />
-            <option value="$USER_HOME$/SourceTree/OneStepDialog/app" />
-            <option value="$USER_HOME$/SourceTree/OneStepDialog/onestepdialog" />
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/onestepdialog" />
           </set>
         </option>
         <option name="myModules">
           <set>
-            <option value="$USER_HOME$/SourceTree/OneStepDialog" />
-            <option value="$USER_HOME$/SourceTree/OneStepDialog/app" />
-            <option value="$USER_HOME$/SourceTree/OneStepDialog/onestepdialog" />
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/onestepdialog" />
           </set>
         </option>
       </GradleProjectSettings>

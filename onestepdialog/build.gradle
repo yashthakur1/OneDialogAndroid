@@ -14,7 +14,7 @@ ext {
     siteUrl = 'https://github.com/yashthakur1/OneStepDialog-Android'
     gitUrl = 'https://github.com/yashthakur1/OneStepDialog-Android.git'
 
-    libraryVersion = '0.2'
+    libraryVersion = '0.3'
 
     developerId = 'yashthakur1'
     developerName = 'Yash Thakur'
@@ -49,6 +49,5 @@ dependencies {
 
 }
 // Place it at the end of the file
-apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
-apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'
-
+apply from: 'https://raw.githubusercontent.com/yashthakur1/OneStepDialog-Android/master/maven.gradle'
+apply from: 'https://raw.githubusercontent.com/yashthakur1/OneStepDialog-Android/master/bintray.gradle'
