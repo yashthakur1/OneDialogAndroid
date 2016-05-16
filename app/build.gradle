@@ -1,5 +1,28 @@
 apply plugin: 'com.android.application'
 
+ext {
+    bintrayRepo = 'maven'
+    bintrayName = 'OneStepDialog-Android'
+
+    publishedGroupId = 'org.bitroot.android'
+    libraryName = 'OneStepDialog'
+    artifact = 'one-step-dialog'
+
+    libraryDescription = 'Helps you implement a dialog in any activity in just one line of code in Android'
+
+    siteUrl = 'https://github.com/yashthakur1/OneStepDialog-Android'
+    gitUrl = 'https://github.com/yashthakur1/OneStepDialog-Android.git'
+
+    libraryVersion = '0.1'
+
+    developerId = 'yashthakur1'
+    developerName = 'Yash Thakur'
+    developerEmail = 'yash.coder@gmail.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
 android {
     compileSdkVersion 23
     buildToolsVersion "23.0.2"
