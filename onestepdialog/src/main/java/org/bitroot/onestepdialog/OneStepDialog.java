@@ -28,7 +28,7 @@ public class OneStepDialog {
      * {3}param 3 -Button 1<br>
      * {4}param 4 -Button 2 )
      */
-    public static void show(final Context context, int imageDrawable, boolean cancelable, OneStepDialogCallback onClickListener, String... stringContent) {
+    public static void show(final Context context, int imageDrawable, boolean isCancelable, OneStepDialogCallback onClickListener, String... stringContent) {
 
 
         dialogBase = new Dialog(context, R.style.WhiteBGDialog);
@@ -46,7 +46,7 @@ public class OneStepDialog {
         }
         btnNo.setVisibility(View.VISIBLE);
 
-        dialogBase.setCancelable(cancelable);
+        dialogBase.setCancelable(isCancelable);
 
         try {
             tvDialogTitle.setText(Html.fromHtml(stringContent[0]));
