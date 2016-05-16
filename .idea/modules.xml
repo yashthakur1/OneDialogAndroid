@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$USER_HOME$/SourceTree/OneStepDialog/OneStepDialog.iml" filepath="$USER_HOME$/SourceTree/OneStepDialog/OneStepDialog.iml" />
       <module fileurl="file://$USER_HOME$/SourceTree/OneStepDialog/app/app.iml" filepath="$USER_HOME$/SourceTree/OneStepDialog/app/app.iml" />
+      <module fileurl="file://$USER_HOME$/SourceTree/OneStepDialog/onestepdialog/onestepdialog.iml" filepath="$USER_HOME$/SourceTree/OneStepDialog/onestepdialog/onestepdialog.iml" />
     </modules>
   </component>
 </project>

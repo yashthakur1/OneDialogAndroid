@@ -10,16 +10,15 @@ public abstract class OneStepDialogCallback implements View.OnClickListener {
 
     @Override
     public void onClick(View v) {
-        switch (v.getId()) {
-            case R.id.btnYes:
-                //write action for on press of btnYes
-                btnClickYes();
-                break;
-            case R.id.btnNo:
-                //write action for on press of btnNo
-                btnClickNo();
-                break;
 
+
+        if (v.getId() == R.id.btnYes) {
+            btnClickYes();
+            return;
+        }
+        if (v.getId() == R.id.btnNo) {
+            btnClickNo();
+            return;
         }
     }
 
