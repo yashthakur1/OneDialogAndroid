@@ -1,4 +1,4 @@
-package org.bitroot.onestepdialog;
+package org.bitroot.demo;
 
 import org.junit.Test;
 
