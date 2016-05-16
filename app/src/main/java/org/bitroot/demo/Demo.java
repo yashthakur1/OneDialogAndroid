@@ -1,13 +1,11 @@
 package org.bitroot.demo;
 
 import android.content.Context;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
-import org.bitroot.onestepdialog.OneStepDialog;
-import org.bitroot.onestepdialog.OneStepDialogCallback;
 import org.bitroot.onestepdialog.R;
 
 
@@ -33,16 +31,16 @@ public class Demo extends AppCompatActivity {
 
     public void showDialog()
     {
-        OneStepDialog.show(context, 0, false, new OneStepDialogCallback() {
-            @Override
-            public void btnClickYes() {
-                OneStepDialog.dismissOneStepDialog();
-            }
-
-            @Override
-            public void btnClickNo() {
-                OneStepDialog.dismissOneStepDialog();
-            }
-        });
+//        OneStepDialog.show(context, 0, false, new OneStepDialogCallback() {
+//            @Override
+//            public void btnClickYes() {
+//                OneStepDialog.dismissOneStepDialog();
+//            }
+//
+//            @Override
+//            public void btnClickNo() {
+//                OneStepDialog.dismissOneStepDialog();
+//            }
+//        });
     }
 }
