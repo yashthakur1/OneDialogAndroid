@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey_text"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/ivDialogIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:src="@drawable/demo_image" />
+
+        <TextView
+            android:id="@+id/tvDialogTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Dialog Title"
+            android:textAllCaps="true"
+            android:textColor="@color/dark_gray"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/tvDialogContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:lineSpacingMultiplier="1.5"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="some description"
+            android:textColor="@color/grey_text" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnYes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@color/transparent"
+                android:gravity="center"
+                android:text="Yes"
+                android:textAllCaps="true"
+                android:textColor="@color/dialog_clickable_text" />
+
+            <Button
+                android:id="@+id/btnNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent"
+                android:gravity="center"
+                android:text="No"
+                android:textAllCaps="true"
+                android:textColor="@color/grey_text" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
