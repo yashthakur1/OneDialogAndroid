@@ -50,5 +50,5 @@ dependencies {
 }
 
 // Place it at the end of the file
-apply from: 'maven.gradle'
-apply from: 'bintray.gradle'
+apply from: 'https://raw.githubusercontent.com/yashthakur1/OneStepDialog-Android/develop/onestepdialog/maven.gradle'
+apply from: 'https://raw.githubusercontent.com/yashthakur1/OneStepDialog-Android/develop/onestepdialog/bintray.gradle'

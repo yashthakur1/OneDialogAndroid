@@ -6,7 +6,7 @@ apply plugin: 'com.jfrog.bintray'
 //version = '0.2'
 
 bintray {
-    user = System.getenv('bintray.user')
+    user = System.getenv('BINTRAY_USER')
     key = System.getenv('bintray.apikey')
 
     configurations = ['archives']
