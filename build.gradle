@@ -23,3 +23,7 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+//
+//// Place it at the end of the file
+//apply from: 'https://raw.githubusercontent.com/yashthakur1/OneStepDialog-Android/develop/onestepdialog/install.gradle'
+//apply from: 'https://raw.githubusercontent.com/yashthakur1/OneStepDialog-Android/develop/onestepdialog/bintray.gradle'

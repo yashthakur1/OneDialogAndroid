@@ -10,7 +10,7 @@ install {
                 packaging 'aar'
                 groupId 'org.bitroot.android'
                 artifactId 'one-step-dialog'
-
+                version '0.2'
                 // Add your description here
                 name 'OneStepDialog-Android'
                 description 'Helps you implement a dialog in any activity in just one line of code in Android'
@@ -36,6 +36,7 @@ install {
                     url 'https://github.com/yashthakur1/OneStepDialog-Android'
 
                 }
+
             }
         }
     }

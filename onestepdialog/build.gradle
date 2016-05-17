@@ -6,7 +6,7 @@ ext {
     bintrayName = 'OneStepDialog-Android'
 
     publishedGroupId = 'org.bitroot.android'
-    libraryName = 'OneStepDialog-Android'
+    libraryName = 'OneStepDialog'
     artifact = 'one-step-dialog'
 
     libraryDescription = 'Helps you implement a dialog in any activity in just one line of code in Android'
@@ -50,5 +50,5 @@ dependencies {
 }
 
 // Place it at the end of the file
-apply from: 'https://raw.githubusercontent.com/yashthakur1/OneStepDialog-Android/develop/onestepdialog/maven.gradle'
-apply from: 'https://raw.githubusercontent.com/yashthakur1/OneStepDialog-Android/develop/onestepdialog/bintray.gradle'
+apply from: 'install.gradle'
+apply from: 'bintray.gradle'
