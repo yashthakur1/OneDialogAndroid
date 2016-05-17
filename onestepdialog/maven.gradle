@@ -12,7 +12,7 @@ install {
                 artifactId 'one-step-dialog'
 
                 // Add your description here
-                name 'OneStepDialog'
+                name 'OneStepDialog-Android'
                 description 'Helps you implement a dialog in any activity in just one line of code in Android'
                 url 'https://github.com/yashthakur1/OneStepDialog-Android'
 
