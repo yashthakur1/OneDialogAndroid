@@ -5,9 +5,9 @@ ext {
     bintrayRepo = 'maven'
     bintrayName = 'OneStepDialog-Android'
 
-    publishedGroupId = 'org.bitroot.android'
+    publishedGroupId = 'org.bitroot'
     libraryName = 'OneStepDialog'
-    artifact = 'one-step-dialog'
+    artifact = 'onestepdialog'
 
     libraryDescription = 'Helps you implement a dialog in any activity in just one line of code in Android'
 

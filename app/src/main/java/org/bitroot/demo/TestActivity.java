@@ -40,6 +40,6 @@ public class TestActivity extends AppCompatActivity {
                 OneStepDialog.dismissOneStepDialog();
 
             }
-        }, "Dialog Success", "Dialog description", "Yes", "No");
+        });
     }
 }

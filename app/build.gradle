@@ -19,9 +19,15 @@ android {
     }
 }
 
+repositories {
+    maven {
+        url 'https://dl.bintray.com/yashthakur1/maven/'
+    }
+}
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.3.0'
     compile project(path: ':onestepdialog')
+//    compile 'org.bitroot.android:one-step-dialog:0.2'
 }

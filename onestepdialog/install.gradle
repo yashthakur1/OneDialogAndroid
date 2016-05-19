@@ -1,15 +1,16 @@
 apply plugin: 'com.github.dcendents.android-maven'
 
-group = 'org.bitroot.android'                               // Maven Group ID for the artifact
+group = 'org.bitroot'                               // Maven Group ID for the artifact
 
 install {
     repositories.mavenInstaller {
         // This generates POM.xml with proper parameters
         pom {
             project {
+                name 'onestepdialog'
                 packaging 'aar'
-                groupId 'org.bitroot.android'
-                artifactId 'one-step-dialog'
+                groupId 'org.bitroot'
+                artifactId 'onestepdialog'
                 version '0.2'
                 // Add your description here
                 name 'OneStepDialog-Android'

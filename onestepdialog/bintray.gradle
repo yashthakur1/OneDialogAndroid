@@ -1,5 +1,5 @@
 apply plugin: 'com.jfrog.bintray'
-
+version = '0.2'
 // Bintray
 Properties properties = new Properties()
 properties.load(project.rootProject.file('local.properties').newDataInputStream())
@@ -14,6 +14,7 @@ bintray {
         name = 'OneStepDialog-Android'
         licenses = ['Apache-2.0']
         vcsUrl = 'https://github.com/yashthakur1/OneStepDialog-Android.git'
+        publicDownloadNumbers = true
 
     }
 }
