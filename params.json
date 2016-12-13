@@ -1,6 +1,6 @@
 {
   "name": "OneDialog",
   "tagline": "Easy implementation for a dialog in android as a one liner code.",
-  "body": "# Page Under Construction",
+  "body": "> ## Hello I'm Yash Thakur. I'm working as a Android Developer at [Servify](https://servify.in) in Mumbai ,India.\r\nJust contributing my part to the community by this library :)\r\n\r\n  \r\n  \r\n  \r\n\r\n***\r\n\r\n> Step 1: to Help Jump-Start Your Minimalist Journey\r\n\r\n### Gradle addons:\r\n```\r\nrepositories {\r\n    maven {\r\n        url  \"http://dl.bintray.com/yashthakur1/maven\"\r\n    }\r\n}\r\n```\r\n> Step 2: Adding Dependencies to your gradle\r\n\r\n### Dependencies addons:\r\n```\r\ncompile 'org.bitroot:onestepdialog:0.2'\r\n```\r\n\r\n\r\n> Step 3 (Final Step): Code Usage\r\n\r\n### Use the libray simply by using the following code :\r\n```\r\nOneStepDialog.show(context, drawable true, new OneStepDialogCallback() {\r\n            @Override\r\n            public void btnClickYes() {\r\n                OneStepDialog.dismissOneStepDialog();\r\n            }\r\n\r\n            @Override\r\n            public void btnClickNo() {\r\n                OneStepDialog.dismissOneStepDialog();\r\n\r\n            }\r\n        }, \"Dialog Title\", \"Dialog description\", \"Yes\", \"No\");\r\n```\r\n\r\n\r\n## New Version Coming Soon!",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }

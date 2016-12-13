@@ -19,8 +19,62 @@
     </section>
 
     <section class="main-content">
-      <h1>
-<a id="page-under-construction" class="anchor" href="#page-under-construction" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Page Under Construction</h1>
+      <blockquote>
+<h2>
+<a id="hello-im-yash-thakur-im-working-as-a-android-developer-at-servify-in-mumbai-india" class="anchor" href="#hello-im-yash-thakur-im-working-as-a-android-developer-at-servify-in-mumbai-india" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Hello I'm Yash Thakur. I'm working as a Android Developer at <a href="https://servify.in">Servify</a> in Mumbai ,India.</h2>
+
+<p>Just contributing my part to the community by this library :)</p>
+</blockquote>
+
+<hr>
+
+<blockquote>
+<p>Step 1: to Help Jump-Start Your Minimalist Journey</p>
+</blockquote>
+
+<h3>
+<a id="gradle-addons" class="anchor" href="#gradle-addons" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Gradle addons:</h3>
+
+<pre><code>repositories {
+    maven {
+        url  "http://dl.bintray.com/yashthakur1/maven"
+    }
+}
+</code></pre>
+
+<blockquote>
+<p>Step 2: Adding Dependencies to your gradle</p>
+</blockquote>
+
+<h3>
+<a id="dependencies-addons" class="anchor" href="#dependencies-addons" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Dependencies addons:</h3>
+
+<pre><code>compile 'org.bitroot:onestepdialog:0.2'
+</code></pre>
+
+<blockquote>
+<p>Step 3 (Final Step): Code Usage</p>
+</blockquote>
+
+<h3>
+<a id="use-the-libray-simply-by-using-the-following-code-" class="anchor" href="#use-the-libray-simply-by-using-the-following-code-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Use the libray simply by using the following code :</h3>
+
+<pre><code>OneStepDialog.show(context, drawable true, new OneStepDialogCallback() {
+            @Override
+            public void btnClickYes() {
+                OneStepDialog.dismissOneStepDialog();
+            }
+
+            @Override
+            public void btnClickNo() {
+                OneStepDialog.dismissOneStepDialog();
+
+            }
+        }, "Dialog Title", "Dialog description", "Yes", "No");
+</code></pre>
+
+<h2>
+<a id="new-version-coming-soon" class="anchor" href="#new-version-coming-soon" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>New Version Coming Soon!</h2>
 
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/yashthakur1/OneDialogAndroid">OneDialog</a> is maintained by <a href="https://github.com/yashthakur1">yashthakur1</a>.</span>
