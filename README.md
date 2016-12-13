@@ -1,6 +1,9 @@
 # OneDialog-Android
 ##### Helps you implement a dialog in any activity in just one line of code in Android
+> ### http://yashthakur1.github.io/OneDialogAndroid/ 
 
+ ***
+ 
 > Step 1: to Help Jump-Start Your Minimalist Journey
 
 ### Gradle addons:
@@ -36,6 +39,6 @@ OneStepDialog.show(context, drawable true, new OneStepDialogCallback() {
             }
         }, "Dialog Title", "Dialog description", "Yes", "No");
 ```
-
+`Follow The Java Doc for better understanding`
 
 ## New Version Coming Soon!
