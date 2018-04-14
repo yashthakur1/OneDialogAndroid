@@ -21,6 +21,12 @@ repositories {
 compile 'org.bitroot:onestepdialog:0.2'
 ```
 
+### Dependencies addons for kotlin or Studio 3.0+:
+```
+implementation 'org.bitroot:onestepdialog:0.2'
+```
+
+
 
 > Step 3 (Final Step): Code Usage
 
